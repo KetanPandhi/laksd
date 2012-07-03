@@ -1,4 +1,7 @@
 Proj::Application.routes.draw do
+  root :to => 'page#home'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
